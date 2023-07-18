@@ -2,9 +2,9 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="grid md:grid-cols-2 justify-between static z-[-20]">
+    <div className="grid md:grid-cols-2 justify-between z-[-20]">
       <div className="md:order-1 order-2 flex flex-col justify-center md:gap-3 gap-1 lg:gap-6 md:px-10 px-6 lg:px-20">
-        <p className="text-2xl md:text-4xl font-semibold text-white">
+        <p className="text-2xl md:text-4xl font-semibold text-white pt-4 md:pt-0">
           Hello, I am
         </p>
         <p className="text-3xl md:text-4xl lg:text-6xl font-semibold text-white uppercase">

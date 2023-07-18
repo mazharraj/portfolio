@@ -3,22 +3,21 @@ import Button from "./Button";
 
 const About = () => {
   return (
-    <div className="lg:px-20 md:px-10 px-6">
+    <div className="lg:px-20 md:px-10 px-6 bg-gray-800 py-12">
       <p className="text-white text-4xl uppercase font-semibold py-4 md:py-6 lg:py-10">
         || about me
       </p>
       <div className="text-violet-200 text-justify space-y-4">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-          praesentium sunt architecto reiciendis. Numquam, ea dolor quisquam at
-          voluptatum facere incidunt odio minus alias corrupti aut officiis,
-          iste, nobis reprehenderit amet sint excepturi obcaecati. Aliquid,
-          incidunt rerum tenetur in nemo distinctio eligendi repellat. Excepturi
-          ipsa et odio dignissimos laudantium aliquam?
+          Hello, I'm Mazhar. I have more than 2 years experience in Web
+          Development. I am expert in HTML5, CSS3, TailwindCSS, Bootstrap5,
+          JavaScript, React.js. I am a self-taught web developer. I love
+          codding. And I am 24/7 online.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque ut
-          libero cupiditate laborum nisi similique facilis, optio quas est.
+          I want to build up my career in any high prospect sector. I would like
+          to develop my professional skills and work in a challenging
+          environment with ample prospects for growth in a reputed organization.
         </p>
 
         <p className="pb-8">Download my resume :</p>

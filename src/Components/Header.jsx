@@ -26,38 +26,34 @@ function Header() {
             open ? "top-0" : "top-[-600px]"
           }`}>
           <li>
-            <a href="#" className="hover:text-violet-300 duration-300">
+            <a href="#" className="hover:text-violet-200 duration-300">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-violet-300 duration-300">
+            <a href="#" className="hover:text-violet-200 duration-300">
               About
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-violet-300 duration-300">
+            <a href="#" className="hover:text-violet-200 duration-300">
               Service
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-violet-300 duration-300">
-              Contact
+            <a href="#" className="hover:text-violet-200 duration-300">
+              Skill
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-violet-300 duration-300">
-              Location
+            <a href="#" className="hover:text-violet-200 duration-300">
+              Gallery
             </a>
           </li>
-          <li>
-            <a href="#" className="hover:text-violet-300 duration-300">
-              Courses
-            </a>
-          </li>
+
           <li>
             <a href={"cv.pdf"} download>
-              <Button btn="get resume" />
+              <Button btn="Contact Now" />
             </a>
           </li>
         </ul>
