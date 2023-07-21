@@ -4,14 +4,15 @@ import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Skill from "./Components/Skill";
 import Gallery from "./Components/Gallery";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <>
-      <div className="fixed top-0 right-0 left-0 z-5000">
+      <div className="fixed top-0 right-0 left-0 z-[50]">
         <Header />
       </div>
-      <div className="static">
+      <div>
         <Hero />
       </div>
       <div className="py-4 md:py-6 lg:py-10"></div>
@@ -22,6 +23,7 @@ function App() {
       <Skill />
       <div className="py-4 md:py-6 lg:py-10"></div>
       <Gallery />
+      <Footer />
     </>
   );
 }
