@@ -22,7 +22,7 @@ const About = () => {
 
         <p className="pb-8">Download my resume :</p>
       </div>
-      <a href={"cv.pdf"} download>
+      <a href={"ResumeofMazhar.pdf"} download>
         <button className="border-2 flex items-center gap-4 rounded-xl py-2 px-4 text-white hover:text-black hover:bg-white hover:border-white duration-300 text-xl uppercase">
           <ion-icon name="cloud-download-outline"></ion-icon> Get Resume
         </button>
