@@ -10,7 +10,7 @@ function Header() {
           <a href="#">
             <img src="vite.svg" alt="" className="logo" />
           </a>
-          <p className="text-3xl font-bold uppercase text-white lg:text-violet-400">
+          <p className="text-3xl font-bold uppercase text-white lg:text-violet-400 whitespace-nowrap">
             mazhar raj
           </p>
         </div>
@@ -20,42 +20,43 @@ function Header() {
           className="text-4xl text-white lg:hidden cursor-pointer">
           <ion-icon name={open ? "close-outline" : "menu-outline"}></ion-icon>
         </div>
+
+        <ul
+          className={`absolute lg:static lg:bg-gray-900 bg-gray-700 w-full top-full flex right-0 top-0 lg:flex-row flex-col gap-6 text-white lg:z-auto justify-center lg:justify-end items-center text-xl lg:text-lg duration-500 overflow-hidden ${
+            open ? "h-screen lg:h-auto" : "h-0 lg:h-auto"
+          }`}>
+          <li>
+            <a href="#" className="hover:text-violet-200 duration-300">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-violet-200 duration-300">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-violet-200 duration-300">
+              Service
+            </a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-violet-200 duration-300">
+              Skill
+            </a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-violet-200 duration-300">
+              Gallery
+            </a>
+          </li>
+          <li>
+            <a href={"cv.pdf"} download>
+              <Button btn="Contact Now" />
+            </a>
+          </li>
+        </ul>
       </div>
-      <ul
-        className={`absolute lg:static lg:bg-gray-900 bg-gray-700 w-full top-full flex right-0 top-0 lg:flex-row flex-col gap-6 text-white lg:z-auto justify-center lg:justify-end items-center text-xl lg:text-lg duration-500 overflow-hidden ${
-          open ? "h-screen" : "h-0"
-        }`}>
-        <li>
-          <a href="#" className="hover:text-violet-200 duration-300">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#" className="hover:text-violet-200 duration-300">
-            About
-          </a>
-        </li>
-        <li>
-          <a href="#" className="hover:text-violet-200 duration-300">
-            Service
-          </a>
-        </li>
-        <li>
-          <a href="#" className="hover:text-violet-200 duration-300">
-            Skill
-          </a>
-        </li>
-        <li>
-          <a href="#" className="hover:text-violet-200 duration-300">
-            Gallery
-          </a>
-        </li>
-        <li>
-          <a href={"cv.pdf"} download>
-            <Button btn="Contact Now" />
-          </a>
-        </li>
-      </ul>
     </div>
   );
 }
