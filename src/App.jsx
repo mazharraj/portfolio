@@ -15,13 +15,13 @@ function App() {
       <div>
         <Hero />
       </div>
-      <div className="py-4 md:py-6 lg:py-10"></div>
+      <div id="about" className="py-4 md:py-6 lg:py-10"></div>
       <About />
-      <div className="py-4 md:py-6 lg:py-10"></div>
+      <div id="service" className="py-4 md:py-6 lg:py-10"></div>
       <Services />
-      <div className="py-4 md:py-6 lg:py-10"></div>
+      <div id="skill" className="py-4 md:py-6 lg:py-10"></div>
       <Skill />
-      <div className="py-4 md:py-6 lg:py-10"></div>
+      <div id="gallery" className="py-4 md:py-6 lg:py-10"></div>
       <Gallery />
       <Footer />
     </>

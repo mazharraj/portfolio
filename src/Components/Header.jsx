@@ -10,7 +10,7 @@ function Header() {
           <a href="#">
             <img src="vite.svg" alt="" className="logo" />
           </a>
-          <p className="text-3xl font-bold uppercase text-white lg:text-violet-400 whitespace-nowrap">
+          <p className="border px-1 lg:border-violet-400 text-3xl font-bold uppercase text-white lg:text-violet-400 whitespace-nowrap">
             mazhar raj
           </p>
         </div>
@@ -23,7 +23,7 @@ function Header() {
 
         <ul
           className={`absolute lg:static lg:bg-gray-900 bg-gray-700 w-full top-full flex right-0 top-0 lg:flex-row flex-col gap-6 text-white lg:z-auto justify-center lg:justify-end items-center text-xl lg:text-lg duration-500 overflow-hidden ${
-            open ? "h-screen lg:h-auto" : "h-0 lg:h-auto"
+            open ? "h-screen opacity-95 lg:h-auto" : "h-0 lg:h-auto"
           }`}>
           <li>
             <a href="#" className="hover:text-violet-200 duration-300">
@@ -31,28 +31,28 @@ function Header() {
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-violet-200 duration-300">
+            <a href="#about" className="hover:text-violet-200 duration-300">
               About
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-violet-200 duration-300">
+            <a href="#service" className="hover:text-violet-200 duration-300">
               Service
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-violet-200 duration-300">
+            <a href="#skill" className="hover:text-violet-200 duration-300">
               Skill
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-violet-200 duration-300">
+            <a href="#gallery" className="hover:text-violet-200 duration-300">
               Gallery
             </a>
           </li>
           <li>
-            <a href={"cv.pdf"} download>
-              <Button btn="Contact Now" />
+            <a href="tel:+8801316146231">
+              <Button btn="Call Now" />
             </a>
           </li>
         </ul>
