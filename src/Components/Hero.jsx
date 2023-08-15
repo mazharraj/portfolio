@@ -7,8 +7,8 @@ const Hero = () => {
         <p className="text-2xl md:text-4xl font-semibold text-white pt-4 md:pt-0">
           Hello, I am
         </p>
-        <p className="text-3xl md:text-4xl lg:text-6xl font-semibold text-white uppercase">
-          mazhar raj
+        <p className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white uppercase">
+          mazharul islam
         </p>
         <p className="text-gray-300 text-2xl md:text-3xl">
           Web Developer & Digital Illustrator
