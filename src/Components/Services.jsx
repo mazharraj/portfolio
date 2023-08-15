@@ -52,7 +52,7 @@ const Services = () => {
             <ion-icon name="book-outline"></ion-icon>
           </div>
           <p className="text-2xl text-violet-500 font-bold uppercase">
-            Graphic Design
+            Illustration
           </p>
           <div>
             <ul className="space-y-3">
