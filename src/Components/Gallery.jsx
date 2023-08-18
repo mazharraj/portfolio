@@ -16,13 +16,13 @@ const Gallery = () => {
       <div className="grid grid-cols-2 xl:px-[300px] text-center justify-center items-center gap-4">
         <p
           onClick={() => toggleShow(1)}
-          className="text-violet-800 hover:opacity-90 font-bold cursor-pointer md:text-2xl bg-white py-2 px-6 uppercase"
+          className="text-violet-800 hover:opacity-90 font-bold cursor-pointer text-sm md:text-2xl bg-white py-2 px-1 md:px-6 uppercase"
         >
           Web Development
         </p>
         <p
           onClick={() => toggleShow(2)}
-          className="text-violet-800 hover:opacity-90 font-bold cursor-pointer md:text-2xl bg-white py-2 px-6 uppercase"
+          className="text-violet-800 hover:opacity-90 font-bold cursor-pointer text-sm md:text-2xl bg-white py-2 px-1 md:px-6 uppercase"
         >
           Illustration
         </p>
