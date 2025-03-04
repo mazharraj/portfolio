@@ -5,13 +5,13 @@ function Header() {
   let [open, setOpen] = useState(false);
   return (
     <div>
-      <div className="flex justify-between px-6 lg:px-20 justify-between items-center bg-gray-900 py-3 shadow-lg relative">
+      <div className="flex justify-between px-6 lg:px-20 justify-between items-center bg-gray-900 py-3 shadow-lg relative border-b border-gray-600">
         <div className="flex items-center gap-2">
           <a href="#">
             <img src="vite.svg" alt="" className="logo" />
           </a>
           <p className="border px-1 lg:border-violet-400 text-3xl font-bold uppercase text-white lg:text-violet-400 whitespace-nowrap">
-            mazhar raj
+            mazhar
           </p>
         </div>
 
