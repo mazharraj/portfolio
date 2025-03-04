@@ -38,14 +38,14 @@ const Skill = () => {
         <div className="space-y-2">
           <p className="text-white">JavaScript</p>
           <div className="bg-white h-3 w-full  ">
-            <div className="bg-blue-500 h-3 w-[50%]"></div>
+            <div className="bg-blue-500 h-3 w-[80%]"></div>
           </div>
         </div>
 
         <div className="space-y-2">
           <p className="text-white">react.js</p>
           <div className="bg-white h-3 w-full  ">
-            <div className="bg-orange-500 h-3 w-[60%]"></div>
+            <div className="bg-orange-500 h-3 w-[70%]"></div>
           </div>
         </div>
 
